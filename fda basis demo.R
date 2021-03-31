@@ -5,6 +5,14 @@ library(ggplot2)
 data("CanadianWeather")
 str(CanadianWeather)
 
+#===============================
+# edited
+#1
+# 2
+# 3
+# delele between lines
+#================================
+
 #Let's focus on log-transformed average daily precipitation of Vancouver (one observed curve).
 
 y.lprec <- CanadianWeather$dailyAv[,,3]
